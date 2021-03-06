@@ -1,20 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
-  
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
- 
-</head>
-<body>
- 
-  
-  <script src="js/script.js"></script>
-</body>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+    <title>
+      Frontend Mentor | Fylo landing page with dark theme and features grid
+    </title>
+
+    <!-- main.css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- fontawesome  -->
+    <link rel="stylesheet" href="css/fontawesome.css" />
+  </head>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+
+  <body>
+    <div class="container">
+      <div class="bg_color"></div>
+      <main>
+        <header>
+          <nav>
+            <figure>
+              <a href="https://eunit99.github.io"><img src="./images/logo.svg" alt="logo" class="logo" /></a>
+            </figure>
+            <ul>
+              <li><a href="https://eunit99.github.io">Features</a></li>
+              <li><a href="https://eunit99.github.io">Team</a></li>
+              <li><a href="https://eunit99.github.io">Sign In</a></li>
+            </ul>
+          </nav>
+        </header>
+        <!-- end of header -->
+        <section class="intro">
+          <article class="intro_content">
+            <figure>
+              <img src="./images/illustration-intro.png" alt="illustration" />
+            </figure>
+
+            <h1>All your files in one secure location, accessible anywhere.</h1>
+            <p>
+              Fylo stores all your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends
+              family, and co-workers.
+            </p>
+            <p>
+              <a href="https://eunit99.github.io" class="cta_btn">Get Started </a>
+            </p>
+          </article>
+        </section>
+
+        <section class="features">
+          <article>
+            <div class="feature access">
+              <figure>
+                <img src="./images/icon-access-anywhere.svg" alt="access icon" />
+              </figure>
+              <h3 class="h3">Access your files, anywhere</h3>
+              <p>
+                The ability to use a smartphone, tablet, or computer to access
+                your account means your files follow you everywhere.
+              </p>
+            </div>
+            <!-- another feature -->
+            <div class="feature security">
+              <figure>
+                <img src="./images/icon-security.svg" alt="security icon" />
+              </figure>
+              <h3 class="h3">Security you can trust</h3>
+              <p>
+                2-factor authentication and user-controlled encryption are just
+                a couple of the security features we allow to help secure your
+                files.
+              </p>
+            </div>
+
+            <!-- another feature -->
+            <div class="feature real_time">
+              <figure>
+                <img src="./images/icon-collaboration.svg" alt="collaboration icon" />
+              </figure>
+              <h3 class="h3">Real-time collaboration</h3>
+              <p>
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required.
+              </p>
+            </div>
+
+            <!-- another feature -->
+            <div class="feature store">
+              <figure>
+                <img src="./images/icon-any-file.svg" alt="any-file icon" />
+              </figure>
+              <h3 class="h3">Store any type of file</h3>
+              <p>
+                Whether you're sharing holidays photos or work documents, Fylo
+                has you covered allowing for all file types to be securely
+                stored and shared.
+              </p>
+            </div>
+          </article>
+        </section>
+
+        <section class="productive">
+          <article>
+            <figure>
+              <img src="./images/illustration-stay-productive.png" alt="productivity icon" />
+            </figure>
+            <div>
+              <h3 class="h3">Stay productive, wherever you are</h3>
+              <p>
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p>
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required.
+              </p>
+              <a href="https://eunit99.github.io" class="how_fylo_work">
+                See how Fylo works
+                <img src="./images/icon-arrow.svg" class="arrow" alt="arrow icon" /></a>
+            </div>
+          </article>
+        </section>
+
+        <section class="testimonials">
+          <article>
+            <div class="testimonial">
+              <figure class="quote">
+                <img src="./images/bg-quotes.png" alt="quote icon" />
+              </figure>
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="user">
+                <figure>
+                  <img src="./images/profile-1.jpg" alt="user-1" />
+                </figure>
+                <div>
+                  <h3>Satish Patel</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+            <!--  another testimonial-->
+            <div class="testimonial">
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="user">
+                <figure>
+                  <img src="./images/profile-2.jpg" alt="user-2" />
+                </figure>
+                <div>
+                  <h3>Bruce McKenzie</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+
+            <!--  another testimonial-->
+            <div class="testimonial">
+              <p>
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </p>
+              <div class="user">
+                <figure>
+                  <img src="./images/profile-3.jpg" alt="user-3" />
+                </figure>
+                <div>
+                  <h3>Iva Boyd</h3>
+                  <p>Founder & CEO, Huddle</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="sign_up">
+          <div class="sign_up_content">
+            <h1>Get early access today</h1>
+            <p>
+              It only takes a minute to sign up and our free starter tier is
+              extremely generous. If you have any questions, our support team
+              would be happy to help you.
+            </p>
+            <form action="">
+              <input type="email" name="email" id="email" placeholder="email@example.com" />
+              <input type="submit" value=" Get Started For Free " id="submit" class="cta_btn" />
+            </form>
+          </div>
+        </section>
+
+        <footer>
+          <section class="contacts">
+            <figure class="footer_logo">
+              <img src="./images/logo.svg" alt="footer logo" />
+            </figure>
+            <div class="f_content">
+              <div class="address contact">
+                <figure>
+                  <img src="./images/icon-location.svg" alt="map-marker  icon" />
+                </figure>
+                <p>
+                  Lorem ipsum dolor sit amet, <br />
+                  consectetur adipiscing elit, <br />
+                  sed do eiusmod tempor incididunt <br />
+                  ut labore et dolore magna aliqua
+                </p>
+              </div>
+
+              <div class="phone_email">
+                <div class="phone contact">
+                  <figure>
+                    <img src="./images/icon-phone.svg" alt="phone icon" />
+                  </figure>
+                  <p>+1-543-123-4567</p>
+                </div>
+                <div class="email contact">
+                  <figure>
+                    <img src="./images/icon-email.svg" alt="email icon" />
+                  </figure>
+                  <p>example@fylo.com</p>
+                </div>
+              </div>
+
+              <!-- footer menu -->
+              <ul class="menu_1">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+
+              <ul class="menu_2">
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+
+              <ul class="footer_sm">
+                <li>
+                  <a href="#"><img src="./images/icon-facebook.svg" alt="facebook icon" /></a>
+                </li>
+
+                <li>
+                  <a href="https://www.twitter.com/eunit99">
+                    <img src="./images/icon-twitter.svg" alt="twitter icon" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#"><img src="./images/icon-instagram.svg" alt="instagram icon" /></a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+            href="https://www.eunit99.github.io">Eunit</a>.
+        </p>
+      </main>
+
+      <div class="bg_bottom"></div>
+    </div>
+  </body>
+
 </html>
